@@ -30,6 +30,9 @@
       "node_modules/@types"
     ]
   },
+  "files"          : [
+    "types/svg.d.ts"
+  ],
   "exclude"        : [
     "node_modules"
   ],

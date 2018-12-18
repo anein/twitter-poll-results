@@ -1,16 +1,48 @@
 {
-  "extends": ["tslint:recommended", "tslint-config-prettier"],
+  "extends"        : [
+    "tslint:recommended",
+    "tslint-config-prettier"
+  ],
   "defaultSeverity": "error",
-  "jsRules": {},
-  "rules": {
-    "quotemark": [true, "double"],
-    "no-bitwise": false,
-    "variable-name": false,
-    "indent": [true],
-    "interface-name": [false],
-    "arrow-parens": false,
-    "object-literal-sort-keys": false,
-    "no-consecutive-blank-lines": true
+  "jsRules"        : {},
+  "rules"          : {
+    "quotemark"                 : [
+      true,
+      "double"
+    ],
+    "no-bitwise"                : false,
+    "variable-name"             : false,
+    "indent"                    : [
+      true
+    ],
+    "interface-name"            : [
+      false
+    ],
+    "arrow-parens"              : false,
+    "object-literal-sort-keys"  : false,
+    "no-consecutive-blank-lines": true,
+    "member-ordering"           : [
+      true,
+      {
+        "order": [
+          "private-static-field",
+          "private-instance-field",
+          "private-constructor",
+          "public-static-field",
+          "public-static-method",
+          "public-instance-field",
+          "public-constructor",
+          "public-instance-method",
+          "private-instance-method",
+          "private-static-method",
+          "protected-static-field",
+          "protected-static-method",
+          "protected-instance-field",
+          "protected-constructor",
+          "protected-instance-method"
+        ]
+      }
+    ]
   },
-  "rulesDirectory": []
+  "rulesDirectory" : []
 }

@@ -1,0 +1,67 @@
+$btn-color : rgb(136, 153, 166);
+$bnt-active : rgb(29, 161, 242);
+
+%active-chart {
+  .chart {
+    fill : $bnt-active;
+  }
+}
+
+.btn-results {
+  font-weight  : 700;
+  cursor       : pointer;
+  z-index      : 0;
+  border-width : 0;
+  overflow     : hidden;
+  color        : $btn-color;
+  display      : block;
+  text-align   : center;
+  margin-top   : 0;
+  margin-right : 0.6em;
+
+  svg {
+    width : 1.85em;
+
+    path {
+      fill : black;
+    }
+  }
+}
+
+.btn-results:hover {
+  &:not(.active) {
+    .chart {
+      fill : black;
+    }
+  }
+
+}
+
+.active {
+  .chart {
+    fill : #0199ff !important;
+  }
+}
+
+.PollXChoice-info {
+  display     : flex;
+  align-items : center;
+
+  span {
+    margin-top : 0 !important;
+  }
+}
+
+.PollXChoice-info.active .PollXChoice-vote {
+  width        : auto !important;
+  display      : inline-block !important;
+  margin-right : 1.3em !important;
+  margin-left  : 0.3em !important;
+  margin-top   : 0 !important;
+  opacity      : .4;
+
+  button {
+    color        : $btn-color !important;
+    border-color : $btn-color !important;
+  }
+}
