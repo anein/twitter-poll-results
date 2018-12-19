@@ -27,7 +27,7 @@ export class Poll {
    * Creates an instance of Poll
    */
   public constructor(private card: ICard, private element: HTMLElement) {
-    if (card.is_open === "false") {
+    if (card.is_open === "false" || card.is_author) {
       this.__initialState = PollState.FINAL;
     } else if ("selected_choice" in card) {
       this.__initialState = PollState.CLOSED;
