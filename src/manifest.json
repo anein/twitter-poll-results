@@ -4,7 +4,7 @@
   "version"         : "1.0.1",
   "description"     : "__MSG_ext_description__",
   "author"          : "__MSG_ext_author__",
-  "homepage_url"    : "https://my_url.com",
+  "homepage_url"    : "https://github.com/anein/twitter-poll-results",
   "manifest_version": 2,
   "default_locale"  : "en",
 
