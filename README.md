@@ -1,52 +1,25 @@
-# Chrome Extension Boilerplate
+<div align="center">
+	<img width="350" height="350" src=".media/logo.png" alt="Github Service Status">
+	<br>
+	<br>
+	<h4> Twitter: Show results of a poll</h4>
+	<p>
+    The extension helps users to see results of a poll without a vote.
+	</p>
+	<br>
+	
+</div>
+<br />
+<br />
 
-A template project for Chrome, Opera and FireFox extensions based on typescript and webpack.
+## Preview
+The extension is compatible with **TweetDeck** and standard **Web Client**  
 
-## Usage
+![](.media/preview_1.gif)
 
-1. Clone the repository
+## Collaboration
 
-```bash
-
-  git clone https://github.com/anein/chrome-extension-boilerplate.git
-
-```
-
-2. Install dependencies
-
-```bash
-
-  yarn install
-
-```
-
-3. Work
-
-  To `serve` the project
-
-  ``` bash
-
-    yarn dev
-
-  ```
-
-  To `build` your extension for Chrome
-
-  ``` bash
-
-  yarn run build:chrome
-
-  ```
-
-  To `build` your extension for Opera or FireFox
-
-
-  ``` bash
-
-  yarn run build
-
-
-  ```
+Please, feel free to ask any questions that you have about using and developing the extension.
 
 ---
 Good luck.
