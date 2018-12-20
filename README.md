@@ -6,7 +6,10 @@
 	<p>
     The extension helps users to see results of a poll without a vote.
 	</p>
-	<br>
+	 <a href="	https://addons.mozilla.org/en-US/firefox/addon/twitter-poll-results/">
+      <img align="center" src="https://addons.cdn.mozilla.net/static/img/addons-buttons/AMO-button_1.png" />
+   </a>
+   <br />
 	
 </div>
 <br />
