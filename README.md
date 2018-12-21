@@ -6,12 +6,16 @@
 	<p>
     The extension helps users to see results of a poll without a vote.
 	</p>
-	 <a href="https://addons.mozilla.org/en-US/firefox/addon/twitter-poll-results/">
-      <img align="center" src="https://addons.cdn.mozilla.net/static/img/addons-buttons/AMO-button_1.png" />
-   </a>
-   <br />
-	
+	 <p>
+	   <a href="https://chrome.google.com/webstore/detail/twitter-poll-results/kfflkladhbhcpjekphmakomaiogbfepn">
+        <img  align="center" src="https://developer.chrome.com/webstore/images/ChromeWebStore_Badge_v2_206x58.png" />
+     </a> 
+	   <a href="https://addons.mozilla.org/en-US/firefox/addon/twitter-poll-results/">
+        <img align="center" src="https://addons.cdn.mozilla.net/static/img/addons-buttons/AMO-button_1.png" />
+     </a>
+   </p>
 </div>
+
 <br />
 <br />
 
