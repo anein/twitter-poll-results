@@ -8,9 +8,7 @@ module.exports = [
     context: helpers.root("src"),
 
     entry: {
-      background: ["./app/background.ts", "./assets/css/background.scss"],
-      popup     : ["./app/popup.ts", "./assets/css/popup.scss"],
-      options   : ["./app/options.ts", "./assets/css/options.scss"]
+      background: ["./app/background.ts", "./assets/css/background.scss"]
     },
 
     output: {
